@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #fafafa;
+
+  --yellow: #dbac2c;
+  --yellow-light: #f1e9c9;
+  --yellow-dark: #c47f17;
+
+  --purple-dark: #4b2995;
+  --purple: #8047f8;
+  --purple-light: #ebe5f9;
+
+  --base-title: #272221;
+  --base-subtitle: #403937;
+  --base-text: #574f4d;
+  --base-label: #8d8686;
+  --base-hover: #d7d5d5;
+
+  --base-button: #e6e5e5;
+  --base-input: #ededed;
+  --base-card: #f3f2f2;
+  --background: #fafafa;
+
+  --white: #ffffff;
+
+  --size-tag: 1rem;
+
+  --size-regular-l: 2rem;
+  --size-regular-m: 1.6rem;
+  --size-regular-s: 1.4rem;
+  --size-regular-xs: 1.2rem;
+
+  --size-title-xl: 4.8rem;
+  --size-title-l: 3.2rem;
+  --size-title-m: 2.4rem;
+  --size-title-s: 2rem;
+  --size-title-xs: 1.8rem;
+
+  --ln-regular-s: 130%;
+  --ln-button-G: 160%;
+  --ln-button-M: 160%;
+}
+
+html {
+  font-size: 62.5%; /* a cada 1rem será considera 10px */
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--base-text);
+  min-width: 32rem;
+  max-width: 144rem;
+  min-height: 100vh;
+  line-height: 1.3;
+}
+
+.container {
+  padding: 0 16rem;
+}
